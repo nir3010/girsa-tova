@@ -1,11 +1,8 @@
-// ProgressBar.js
 import React from 'react';
 import { View, Animated, StyleSheet } from 'react-native';
 
 export default function ProgressBar({ step, total, theme }) {
-  // מחשב את האחוז למילוי
   const width = `${(step / total) * 100}%`;
-
   return (
     <View
       style={[styles.barBackground, { backgroundColor: theme.border }]}
