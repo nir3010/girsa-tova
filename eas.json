@@ -1,13 +1,9 @@
 {
   "cli": {
-    "version": ">= 0.52.0"
+    "version": ">= 3.0.0",
+    "appVersionSource": "appVersion"
   },
   "build": {
-    "preview": {
-      "android": {
-        "buildType": "apk"
-      }
-    },
     "production": {
       "android": {
         "buildType": "apk"
